@@ -1,0 +1,72 @@
+.Nav-main.Navbar.Brand{
+width: 99.43px;
+height: 15.47px;
+top: 7.75px;
+left: -0.17px;
+gap: 0px;
+opacity: 0px;
+background: #101828;
+}
+
+  
+.FAQ{
+  width: 50%;
+  margin-top: 800px;
+  margin-left: 400px;
+}
+
+.h11{
+  font-size: 60px;
+}
+.img1{
+  width: 1200px;
+  margin-left: -400px;
+  border: 10px solid black;
+  border-radius: 10px;
+  border-bottom: none;
+  margin-bottom: 50px;
+}
+
+
+@media (min-width:280px) and (max-width:575px) {
+  .headlogo{
+    visibility: hidden;
+  }
+  .h11{
+   font-size: 40px;
+  }
+  .bg-body-tertiary{
+    width: 130%;
+  }
+  .img1{
+    width: 450px;
+    border-radius: 10px;
+    border: 5px solid black;
+    height: 250px;
+  }
+  .desk{
+    visibility: hidden;
+  }
+  .mock{
+    visibility: hidden;
+  }
+  .mobile{
+    position: absolute;
+    top: 600%;
+    left: 100px;
+  }
+  .mobilemock{
+    position: relative;
+    top: 600%;
+    left: 110px;
+    border-radius: 15px;
+  }
+  .FAQ{
+    margin-left: 20%;
+    width:300px
+  }
+}
+
+
+  
+  
