@@ -4,20 +4,20 @@ import mainlogo from '../../assets/Images/Main logo.png'
 
 function Footer() {
   return (
-    <div style={{backgroundColor:"#F9FAFB",marginLeft:"30px"}}>
-       <center> <div style={{backgroundColor:'#F9FAFB', height:"200px",padding:"10px",paddingBottom:"100px"}}>
+    <div className='footer'>
+       <center> <div className='mainfoot' >
             <h3>Start your free trial</h3>
             <p>Join over 4,000+ startups already growing with Untitled.</p>
             <div>
-                <button style={{backgroundColor:"white",color:"black",padding:"10px",borderRadius:"10px",margin:"10px"}}>Learn more</button>
-                <button style={{backgroundColor:"#7F56D9",color:"white",padding:"10px",borderRadius:"10px"}}>Get started</button>
+                <button id='fotbtn1' >Learn more</button>
+                <button id='fotbtn2' >Get started</button>
             </div>
         </div>
         </center>
         <br></br>
-        <div style={{display:"flex"}}>
+        <div className='footers'>
        
-        <div className="col mb-3">
+        <div >
   <h5>Product</h5>
   <ul className="nav flex-column">
     <li className="nav-item mb-2">
@@ -47,7 +47,7 @@ function Footer() {
     </li>
   </ul>
 </div>
-<div className="col mb-3">
+<div >
   <h5>company</h5>
   <ul className="nav flex-column">
     <li className="nav-item mb-2">
@@ -77,7 +77,7 @@ function Footer() {
     </li>
   </ul>
 </div>
-<div className="col mb-3">
+<div >
   <h5>Resources</h5>
   <ul className="nav flex-column">
     <li className="nav-item mb-2">
@@ -107,7 +107,7 @@ function Footer() {
     </li>
   </ul>
 </div>
-<div className="col mb-3">
+<div >
   <h5>Use cases</h5>
   <ul className="nav flex-column">
     <li className="nav-item mb-2">
@@ -137,7 +137,7 @@ function Footer() {
     </li>
   </ul>
 </div>
-<div className="col mb-3">
+<div >
   <h5>Social</h5>
   <ul className="nav flex-column">
     <li className="nav-item mb-2">
@@ -167,7 +167,7 @@ function Footer() {
     </li>
   </ul>
 </div>
-<div className="col mb-3">
+<div >
   <h5>Legal</h5>
   <ul className="nav flex-column">
     <li className="nav-item mb-2">
@@ -214,14 +214,15 @@ function Footer() {
       <span><img src={mainlogo}></img><span>Untitled UI</span></span>
       
     </div>
-    <span className="mb-3 mb-md-0 text-body-secondary">
-        © 2024 Company, Inc
-      </span>
+    
     
   </footer>
+ 
 </div>
 
-      
+<span className="mb-3 mb-md-0 text-body-secondary" id='fooo'>
+        © 2077 Untitled UI, All rights reserve
+      </span>
     </div>
   )
 }

@@ -10,20 +10,17 @@ import avatar3 from "../../assets/Images/Avatar (3).png"
 function Blog() {
   return (
     <div>
-        <div style={{marginLeft:"100px"}}> 
-            <p>Our blog</p>
+        <div> 
+            <p color='#6941C6'>Our blog</p>
             <h2>Lastest blog posts</h2>
             <p>Tool and strategies modern teams need to help their companies grow.</p>
-            <button style={{float:"right",marginTop:"-130px",marginRight:"80px",backgroundColor:"#7F56D9",borderRadius:"10px",color:"white"}}>View all posts</button>
+            <button id='blogbtn1' >View all posts</button>
         </div>
         
         <div>
         <div className="album py-5 bg-body-tertiary">
   <div className="container">
     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      
-      
-      
      <div className="col">
         <div className="card shadow-sm">
           <img src={image1}></img>

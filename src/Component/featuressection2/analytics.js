@@ -6,28 +6,20 @@ import mobilemock from "../../assets/Images/iPhone mockup.png";
 import icon from '../../assets/Images/Featured icon.png'
 import icon1 from '../../assets/Images/Featured icon (1).png'
 import icon2 from '../../assets/Images/Featured icon (2).png'
+import content from '../../assets/Images/Content (2).png'
 
 function YourComponent() {
   return (
     <div>
-     <center><div>
-        <p style={{color:"#6941c6"}}>Features</p>
-        <h2>Cutting-edge features for advanced analytics</h2>
-        <p>Powerful, self-serve product and growth analytics to help you convert, engage,<br></br> and retain more users. Trusted by over 4,000 startups.</p>
+     <center><div className='cuttingedge'>
+        <span style={{color:"#6941c6",border:"1px solid black",borderRadius:"7px",backgroundColor:"#F9F5FF",color:"violet",fontSize:"15px",padding:"0px 10px",marginBottom:'10%'}} id='fee'>Features</span>
+        <h2 className='cut'>Cutting-edge features for advanced analytics</h2>
+        <p className='cutp'>Powerful, self-serve product and growth analytics to help you convert, engage,<br></br> and retain more users. Trusted by over 4,000 startups.</p>
       </div></center>
-
-      <div className='mobile'>
-        <div style={{ position: 'relative', display: 'inline-block' }}>
-          <img src={desk} className='desk'style={{ position: 'absolute', top: '65px', left:'350px',width:"865px" }} alt="mockup" />
-          <img src={mockup}  className='mocks'style={{ position: 'absolute', top: '100px', left: '400px' }} alt="desk" />
+        <div className='analytics' >
+         <img src={content} className='imagess'></img>
         </div>
-        <div style={{ position: 'relative', display: 'inline-block' }}>
-          <img src={mobile} className='mobile'style={{ position: 'absolute', top:'155px', left: '360px' }} alt="mobile" />
-          <img src={mobilemock} className='mobilemock'style={{ position: 'absolute', top: '150px', left: '350px' }} alt="mobilemock" />
-        </div>
-      </div>
-
-      <div className="row g-4 py-5 row-cols-1 row-cols-lg-3"style={{position:"relative",top:"700px"}}>
+      <div className="row g-4 py-5 row-cols-1 row-cols-lg-3"style={{position:"relative",top:"-100px",marginLeft:'10px'}}>
         <div className="feature col">
          <center>
           <div >

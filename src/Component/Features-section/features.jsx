@@ -10,11 +10,11 @@ const Features = () => {
     return(
         <>
       <center>
-       <span style={{color:"#6941C6"}}>Features</span> 
-        <h1>Analytics that feels like its from the future</h1>
-          <p>Powerful, self-serve product and growth analytics to help you convert,engage,<br></br> 
+       <span style={{color:"#6941C6"}} id='feature'>Features</span> 
+        <h1 className='h222'>Analytics that feels like its from the future</h1>
+          <p id='p22'>Powerful, self-serve product and growth analytics to help you convert,engage,<br></br> 
             and retain more users. Trusted by over 4,000 startups.</p>
-<div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+<div className="row g-4 py-5 row-cols-1 row-cols-lg-3" id='container1'>
   <div className="feature col">
     <div >
        <img src={icon}></img>
@@ -50,7 +50,7 @@ const Features = () => {
   </div>
 </div>
 
-<div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+<div className="row g-4 py-5 row-cols-1 row-cols-lg-3" id='container1'>
   <div className="feature col">
     <div >
       <img src={icon3}></img>

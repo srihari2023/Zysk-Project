@@ -1,9 +1,10 @@
-import coml from '../assets/Images/Fictional company logo.png'
-import coml1 from '../assets/Images/Fictional company logo (1).png'
-import coml2 from '../assets/Images/Fictional company logo (2).png'
-import coml3 from '../assets/Images/Fictional company logo (3).png'
-import coml4 from '../assets/Images/Fictional company logo (4).png'
-import coml5 from '../assets/Images/Fictional company logo (5).png'
+import coml from '../assets/Images/Logomark (1).png'
+import coml1 from '../assets/Images/Logomark (2).png'
+import coml2 from '../assets/Images/Logomark (3).png'
+import coml3 from '../assets/Images/Logomark (4).png'
+import coml4 from '../assets/Images/Logomark (5).png'
+import coml5 from '../assets/Images/Logomark (6).png'
+
 
 
 
@@ -12,62 +13,62 @@ const SectionDivider = () => {
        <center><div>
         <br></br>
             <p>Join 4000+ companies already growining</p>
-        <div className="d-flex gap-2 justify-content-center py-5">
+        <div  id='midcontent'>
          
-  <span >
+  <span className='secdiv' >
     <img
       className="rounded-circle me-1"
-     
       src={coml}
       alt=""
     />
-    Bolt Shift
+   BoltShift
   </span>
-  <span >
+  <span className='secdiv'  >
     <img
       className="rounded-circle me-1"
       
       src={coml1}
       alt=""
     />
-    LightBox
+   LightBox
   </span>
-  <span >
+  <span className='secdiv'  >
     <img
       className="rounded-circle me-1"
      
       src={coml2}
       alt=""
     />
-   FeatherDev
+  FeatherDev
   </span>
-  <span >
+  <span className='secdiv'  >
     <img
       className="rounded-circle me-1"
       
       src={coml3}
       alt=""
     />
-   Spherule
+  Spherule
   </span>
-  <span >
+  <span  className='secdiv' >
     <img
       className="rounded-circle me-1"
     
       src={coml4}
       alt=""
     />
-    GlobalBank
+  GlobalBank
   </span>
-  <span >
+  <span className='secdiv'  >
     <img
       className="rounded-circle me-1"
     
       src={coml5}
       alt=""
     />
-    NietZsche
+   NietZsche
   </span>
+  
 </div>
 </div>
 </center>
